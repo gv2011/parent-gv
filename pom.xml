@@ -55,12 +55,10 @@
             <licenseName>mit</licenseName>
             <organizationName>Vinz (https://github.com/gv2011)</organizationName>
             <addSvnKeyWords>false</addSvnKeyWords>
-            <processStartTag>%---license-start---</processStartTag>
-            <processEndTag>%---license-end---</processEndTag>
-            <sectionDelimiter>%</sectionDelimiter>
+            <includes>
+              <include>**/*.java</include>
+            </includes>
             <excludes>
-              <exclude>**/*.json</exclude>
-              <exclude>**/descriptionTemplate.ftl</exclude>
               <exclude>**/package-info.java</exclude>
             </excludes>
           </configuration>
