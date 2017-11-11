@@ -32,6 +32,7 @@
   </parent>
 
   <artifactId>parent-gv</artifactId>
+  <version>0.0.5-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>parent-gv</name>
