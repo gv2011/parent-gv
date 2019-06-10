@@ -27,11 +27,10 @@
   <parent>
     <groupId>com.github.gv2011</groupId>
     <artifactId>parent</artifactId>
-    <version>0.3.0</version>
+    <version>0.4.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>parent-gv</artifactId>
-  <version>0.3.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>parent-gv</name>
