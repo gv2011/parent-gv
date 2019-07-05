@@ -48,32 +48,6 @@
     <pluginManagement>
       <plugins>
         <plugin>
-          <groupId>org.codehaus.mojo</groupId>
-          <artifactId>license-maven-plugin</artifactId>
-          <configuration>
-            <licenseName>mit</licenseName>
-            <organizationName>Vinz (https://github.com/gv2011)</organizationName>
-            <addSvnKeyWords>false</addSvnKeyWords>
-            <includes>
-              <include>**/*.java</include>
-            </includes>
-            <excludes>
-              <exclude>**/package-info.java</exclude>
-            </excludes>
-          </configuration>
-          <executions>
-            <execution>
-              <id>license-update</id>
-              <goals>
-                <goal>update-project-license</goal>
-                <goal>update-file-header</goal>
-              </goals>
-              <phase>process-sources</phase>
-            </execution>
-          </executions>
-        </plugin>
-
-        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-gpg-plugin</artifactId>
           <configuration>
