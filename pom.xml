@@ -1,7 +1,7 @@
 <!--
   The MIT License (MIT)
 
-  Copyright (c) 2016 - 2017, Vinz (https://github.com/gv2011)
+  Copyright (c) 2016 - 2019, Vinz (https://github.com/gv2011)
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
@@ -27,11 +27,11 @@
   <parent>
     <groupId>com.github.gv2011</groupId>
     <artifactId>parent</artifactId>
-    <version>0.4.0</version>
+    <version>0.5.0</version>
   </parent>
 
   <artifactId>parent-gv</artifactId>
-  <version>0.4.0</version>
+  <version>0.5.0</version>
   <packaging>pom</packaging>
 
   <name>parent-gv</name>
@@ -42,38 +42,12 @@
     <connection>scm:git:git://github.com/gv2011/parent-gv.git</connection>
     <developerConnection>scm:git:git@github.com:gv2011/parent-gv.git</developerConnection>
     <url>https://github.com/gv2011/parent-gv</url>
-    <tag>parent-gv-0.4.0</tag>
+    <tag>parent-gv-0.5.0</tag>
   </scm>
 
   <build>
     <pluginManagement>
       <plugins>
-        <plugin>
-          <groupId>org.codehaus.mojo</groupId>
-          <artifactId>license-maven-plugin</artifactId>
-          <configuration>
-            <licenseName>mit</licenseName>
-            <organizationName>Vinz (https://github.com/gv2011)</organizationName>
-            <addSvnKeyWords>false</addSvnKeyWords>
-            <includes>
-              <include>**/*.java</include>
-            </includes>
-            <excludes>
-              <exclude>**/package-info.java</exclude>
-            </excludes>
-          </configuration>
-          <executions>
-            <execution>
-              <id>license-update</id>
-              <goals>
-                <goal>update-project-license</goal>
-                <goal>update-file-header</goal>
-              </goals>
-              <phase>process-sources</phase>
-            </execution>
-          </executions>
-        </plugin>
-
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-gpg-plugin</artifactId>
