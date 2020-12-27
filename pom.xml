@@ -15,7 +15,7 @@
   <parent>
     <groupId>com.github.gv2011</groupId>
     <artifactId>parent</artifactId>
-    <version>0.5.8</version>
+    <version>0.5.9-SNAPSHOT</version>
   </parent>
 
   <artifactId>parent-gv</artifactId>
