@@ -4,11 +4,10 @@
   <parent>
     <groupId>com.github.gv2011</groupId>
     <artifactId>parent</artifactId>
-    <version>1.3</version>
+    <version>1.4-SNAPSHOT</version>
   </parent>
 
   <artifactId>parent-gv</artifactId>
-  <version>1.4-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>parent-gv</name>
